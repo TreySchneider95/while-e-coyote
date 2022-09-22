@@ -4,7 +4,7 @@ let n = Number(prompt("Number: "))
 let counter = 0
 let past_num = 1
 let num = 1
-while (counter !== n){
+while (counter < n){
     if(counter === 0){
         console.log(0)
     }else if(counter === 1){
